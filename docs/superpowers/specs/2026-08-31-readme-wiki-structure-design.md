@@ -12,13 +12,12 @@ GitHub 저장소의 첫 화면을 `README.md`로 제공하고, 학습 기록을 
 
 ```text
 README.md
-docs/
-  review/
-    daily/
-      week1/ ... week10/
-    weekly/
-      week1.md ... week6.md
-      project.md
+review/
+  daily/
+    week1/ ... week10/
+  weekly/
+    week1.md ... week6.md
+    project.md
 ```
 
 `Home.md`는 제거한다. 기존 루트의 일일 회고 문서는 해당 주차 폴더로, 주차별 회고 문서와 `project.md`는 모두 `weekly`로 이동한다. 프로젝트 회고는 별도 폴더를 만들지 않는다.
@@ -39,7 +38,7 @@ docs/
 ## Link Rules
 
 - 저장소에서는 GitHub 상대 링크 문법을 사용한다.
-- README에서는 `docs/...`를 기준으로 링크한다.
+- README에서는 `review/...`를 기준으로 링크한다.
 - 주차별 인덱스에서는 같은 폴더의 회고 파일로 링크한다.
 - 각 회고 원문은 내용을 바꾸지 않는다.
 
